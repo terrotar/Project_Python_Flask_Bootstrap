@@ -1,0 +1,32 @@
+{% extends 'base.html' %} {% block head %}
+<title>Home</title>
+{% endblock %} {% block body %}
+
+<br>
+<h1>Home Page</h1>
+<br>
+<main role="main">
+  <div class="jumbotron">
+    <div class="col-sm-8 mx-auto">
+      <h1>Welcome !</h1>
+      <p>
+        Welcome to the Clever Programmer Blog ! Thats my first real attempt with Python and Flask.
+        It's simple but it helped me a lot. I hope you enjoy the Blog and that it may help you too.
+        If you want to give some feedback or say something about it, just click on the Menu bar, there's a "Contact Me" there.
+        Thanks =]
+      </p>
+      <p>
+        So, ready to check it out ?!?
+      </p>
+      <p>
+        <a
+          class="btn btn-primary"
+          href="/posts"
+          role="button"
+          >Let's Post ! &raquo;</a
+        >
+      </p>
+    </div>
+  </div>
+</main>
+{% endblock %}
